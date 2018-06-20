@@ -1,0 +1,161 @@
+html {
+    overflow-y: scroll;
+}
+
+.center {
+    text-align: center;
+}
+
+.no-margin {
+    margin:0;
+}
+
+.red {
+    color: rgb(255, 67, 90) !important;
+}
+
+.pb-4, .py-4 {
+    padding-bottom: 0 !important;
+}
+
+.bg-info {
+    background-color: rgb(52, 165, 218) !important;
+} 
+
+a {
+    /* color: rgb(52, 165, 218) !important; */
+    color: rgb(46, 147, 193) !important;
+}
+
+a.about-link {
+    color: lightcyan !important;
+}
+
+a.about-link:hover {
+    color: lightblue !important;
+}
+
+a.color-meetup {
+    color: rgb(255, 67, 90) !important;
+}
+
+a.color-github {
+    color: black !important;
+}
+
+a.no-underline {
+    text-decoration: none;
+}
+
+img#logo {
+    margin-bottom: 1em;
+    max-width: 446px;
+    width: 100%;
+}
+
+img.muted {
+    opacity: 0.15;
+}
+
+img.fit {
+    width: 100%;
+}
+
+img.rounded {
+  border-radius: 10px;
+}
+
+img.people {
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gray;
+    width: 100%;
+}
+
+section.heading-container {
+    width: 100%;
+    max-width: 446px;
+    height: 150px;
+    margin-top: 2em; 
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+div.logo-container,
+div.title-container {
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 446px;
+    position: absolute;
+    text-align: center;
+}
+
+div.logo-container {
+    height: 150px;
+}
+
+div.title-container {
+    display: table;
+    height: 105px;
+    text-align: center;
+    z-index: 10;
+}
+
+div.title-container > h1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.feedback {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    min-height: 3em;
+}
+
+div.sponsored-by {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  min-height: 3em;
+}
+
+div.weighted {
+    display: flex;
+    align-items: flex-end;
+}
+
+div.event-question {
+    margin-bottom: 1em;
+}
+
+div.person-blurb {
+    margin-bottom: 2em;
+}
+
+div.resource-box {
+    margin-bottom: 1em;
+}
+
+div.sponsor-row {
+    margin-bottom: 2em;
+}
+
+div.resource-icon {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1.5em;
+}
+
+h1.page-title {
+    font-size: 3.5rem;
+}
+
+.twitter-mention-container {
+  padding-top: 2px;
+  height: 1.6em !important;
+}
+
+.skills > h6 {
+    margin-bottom: 0;
+}
