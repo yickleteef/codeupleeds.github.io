@@ -159,7 +159,29 @@ h1.page-title {
 .skills > h6 {
     margin-bottom: 0;
 }
+div.resources {
+    display: flex;
+    /* padding: 10px; */
+    justify-content: space-evenly;
+    margin: 30px;
+}
+h3.sub-title{
+    text-align: center;
+}
+p.paragraph {
+    text-align: center;
+    padding: 20px;
+}
+.fa-font-awesome-flag, .fa-google {
+    padding: 10px;
+    
+}
 
+
+.util {
+    padding-left: 50px;
+    padding-right: 50px;
+}
 footer {
   
     left: 0;
