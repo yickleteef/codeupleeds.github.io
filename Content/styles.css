@@ -159,6 +159,8 @@ h1.page-title {
 .skills > h6 {
     margin-bottom: 0;
 }
+
+/* Resources Sub Pages */
 div.resources {
     display: flex;
     /* padding: 10px; */
