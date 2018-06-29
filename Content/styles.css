@@ -225,3 +225,8 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+.home section.overview {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
