@@ -61,6 +61,10 @@ img.fit {
     width: 100%;
 }
 
+.sponsored-by img {
+    width: 25%;
+}
+
 img.rounded {
   border-radius: 10px;
 }
@@ -220,4 +224,9 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+.home section.overview {
+    margin-bottom: 30px;
+    line-height: 30px;
 }
