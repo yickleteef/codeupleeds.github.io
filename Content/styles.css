@@ -61,6 +61,10 @@ img.fit {
     width: 100%;
 }
 
+.sponsored-by img {
+    width: 25%;
+}
+
 img.rounded {
   border-radius: 10px;
 }
