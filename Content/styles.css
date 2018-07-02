@@ -47,6 +47,10 @@ a.no-underline {
     text-decoration: none;
 }
 
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
 img#logo {
     margin-bottom: 1em;
     max-width: 446px;
@@ -62,7 +66,7 @@ img.fit {
 }
 
 .sponsored-by img {
-    width: 25%;
+    width: 200px;
 }
 
 img.rounded {
@@ -80,10 +84,15 @@ section.heading-container {
     max-width: 446px;
     height: 150px;
     margin-top: 2em; 
-    margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+}
+
+@media (min-width: 768px) {
+    section.heading-container {
+        margin-bottom: 2em;
+    }
 }
 
 div.logo-container,
