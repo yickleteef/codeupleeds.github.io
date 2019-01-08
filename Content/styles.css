@@ -65,8 +65,10 @@ img.fit {
     width: 100%;
 }
 
-.sponsored-by img {
-    width: 200px;
+.sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img.rounded {
